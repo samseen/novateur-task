@@ -1,0 +1,1 @@
+CREATE TABLE registration_table (ID int NOT NULL AUTO_INCREMENT, name VARCHAR(50), address VARCHAR(50), dob VARCHAR(10), position VARCHAR(20), PRIMARY KEY (ID));

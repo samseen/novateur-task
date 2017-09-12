@@ -77,7 +77,7 @@ class SimpleMail
         $message .= $this->html . PHP_EOL;
         $message .= '--' . $boundary . '_alt--' . PHP_EOL;
 
-        ini_set('sendmail_from', $this->from);
+        ini_set('samson.akanbi@outlook.com', $this->from);
 
         mail($this->to, '=?UTF-8?B?' . base64_encode($this->subject) . '?=', $message, $header);
     }
